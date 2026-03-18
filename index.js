@@ -23,6 +23,7 @@ const CHAINS = [
   { name: 'Monad Testnet', rpc: 'https://testnet-rpc.monad.xyz', explorer: 'https://testnet.monadexplorer.com', token: 'MON', weight: 2.0 },
   { name: 'MegaETH Testnet', rpc: 'https://carrot.megaeth.com/rpc', explorer: 'https://megaeth-testnet-v2.blockscout.com', token: 'ETH', weight: 2.0 },
   { name: 'Berachain Bepolia', rpc: 'https://bepolia.rpc.berachain.com', explorer: 'https://bepolia.beratrail.io', token: 'BERA', weight: 1.8 },
+  { name: 'Robinhood Chain', rpc: 'https://rpc.testnet.chain.robinhood.com', explorer: 'https://explorer.testnet.chain.robinhood.com', token: 'ETH', weight: 1.8 },
 ];
 
 async function rpcCall(url, method, params = [], timeout = 8000) {
