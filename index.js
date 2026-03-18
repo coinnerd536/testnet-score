@@ -25,6 +25,9 @@ const CHAINS = [
   { name: 'Berachain Bepolia', rpc: 'https://bepolia.rpc.berachain.com', explorer: 'https://bepolia.beratrail.io', token: 'BERA', weight: 1.8 },
   { name: 'Robinhood Chain', rpc: 'https://rpc.testnet.chain.robinhood.com', explorer: 'https://explorer.testnet.chain.robinhood.com', token: 'ETH', weight: 1.8 },
   { name: 'Tempo Testnet', rpc: 'https://rpc.moderato.tempo.xyz', explorer: 'https://explore.tempo.xyz', token: 'USD', weight: 1.8 },
+  { name: 'Unichain Sepolia', rpc: 'https://sepolia.unichain.org', explorer: 'https://sepolia.uniscan.xyz', token: 'ETH', weight: 2.0 },
+  { name: 'Soneium Minato', rpc: 'https://rpc.minato.soneium.org', explorer: 'https://soneium-minato.blockscout.com', token: 'ETH', weight: 1.8 },
+  { name: 'Ink Sepolia', rpc: 'https://rpc-gel-sepolia.inkonchain.com', explorer: 'https://explorer-sepolia.inkonchain.com', token: 'ETH', weight: 1.8 },
 ];
 
 async function rpcCall(url, method, params = [], timeout = 8000) {
