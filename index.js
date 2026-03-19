@@ -28,6 +28,8 @@ const CHAINS = [
   { name: 'Unichain Sepolia', rpc: 'https://sepolia.unichain.org', explorer: 'https://sepolia.uniscan.xyz', token: 'ETH', weight: 2.0 },
   { name: 'Soneium Minato', rpc: 'https://rpc.minato.soneium.org', explorer: 'https://soneium-minato.blockscout.com', token: 'ETH', weight: 1.8 },
   { name: 'Ink Sepolia', rpc: 'https://rpc-gel-sepolia.inkonchain.com', explorer: 'https://explorer-sepolia.inkonchain.com', token: 'ETH', weight: 1.8 },
+  { name: 'ZetaChain Athens', rpc: 'https://zetachain-athens-evm.blockpi.network/v1/rpc/public', explorer: 'https://athens.explorer.zetachain.com', token: 'ZETA', weight: 1.5 },
+  { name: 'XRPL EVM', rpc: 'https://rpc.xrplevm.org', explorer: 'https://evm-sidechain.xrpl.org', token: 'XRP', weight: 1.5 },
 ];
 
 async function rpcCall(url, method, params = [], timeout = 8000) {
